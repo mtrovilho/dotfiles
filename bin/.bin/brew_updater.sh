@@ -15,6 +15,6 @@ echo
 
 # clean
 echo "$(date +"%Y-%m-%d %H:%M:%S") Homebrew Updater - cleaning…"
-brew clean
+brew cleanup
 echo "$(date +"%Y-%m-%d %H:%M:%S") Homebrew Updater - cleaned"
 echo
