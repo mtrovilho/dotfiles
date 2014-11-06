@@ -11,6 +11,7 @@ TODO
     + automatizar o stow
 - prezto:
     + checar se .bin|bin existem antes de adicionar no $path
+    + stow modules
 - aws libs:
     + atualizar
     + integrar

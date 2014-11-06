@@ -1,0 +1,4 @@
+#compdef pj
+#autoload
+
+_pj() { _files -W ~/Projects -/; }
