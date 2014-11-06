@@ -23,6 +23,9 @@ install openssl
 install pidof
 install pyenv
 install rbenv
+install rbenv-default-gems
+install rbenv-gem-rehash
+install rbenv-vars
 install reattach-to-user-namespace
 install rename
 install ruby-build
