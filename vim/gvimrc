@@ -1,0 +1,20 @@
+" cursor non blink normal mode
+set gcr=n:blinkon0
+" disable blink
+" set gcr=a:blinkon0
+
+" Hide MacVim Toolbar
+set go-=T
+
+" Font
+" descobrir se a font existe
+set guifont=Inconsolata:h15
+
+" Enable search-related options: highlight matches in a search (hls),
+" show the current matching pattern as you search (is), ignore case (ic)
+" unless you are searching for both upper and lowercase letters (scs).
+" The second line adds the mapping Ctrl+n to quickly disable the currently
+" highlighted search term (using the command :noh):
+" set hls is ic scs
+" nmap <silent> <C-n> :noh<CR>
+
