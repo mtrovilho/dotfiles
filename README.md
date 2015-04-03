@@ -8,7 +8,7 @@ Install
 
     # clone dotfiles
     git clone --recursive https://github.com/mtrovilho/dotfiles.git "$HOME/.dotfiles"
-    
+
     # clone and install prezto
     git clone --recursive https://github.com/mtrovilho/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
     # convenience, please check respective github page for updates
@@ -17,11 +17,14 @@ Install
       ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
     done
     chsh -s /bin/zsh
-    
+
     # install homebrew
     ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+    # tap brewdler
+    brew tap Homebrew/brewdler
     # install brews
-    brew bundle ~/.dotfiles/Brewfile
+    brew brewdle --file="$HOME/.dotfiles/Brewfile-minimal"
+    brew brewdle --file="$HOME/.dotfiles/Brewfile-development"
 
     # stow
     cd ~/.dotfiles
@@ -60,6 +63,7 @@ stow:
 homebrew:
 
 - [Homebrew][brew]
+- [Brewdler][brewdler]
 
 vim:
 
@@ -73,6 +77,7 @@ vim:
 [fsf img]: http://static.fsf.org/fsforg/img/normal-image.png
 [stow]: http://www.gnu.org/software/stow/
 [brew]: https://github.com/Homebrew/homebrew
+[brewdler]: https://github.com/Homebrew/homebrew-brewdler
 [prezto]: https://github.com/sorin-ionescu/prezto
 [github ignores]: https://github.com/github/gitignore
 [mathiasbynens]: https://github.com/mathiasbynens/dotfiles
@@ -84,4 +89,3 @@ vim:
 [tpope]: https://github.com/tpope
 [fiorix]: https://github.com/fiorix/dotfiles
 [fbueno]: https://github.com/fbueno/dotfiles
-

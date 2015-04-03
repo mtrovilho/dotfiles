@@ -1,0 +1,18 @@
+tap 'beeftornado/rmtree'
+brew 'brew-rmtree'
+
+brew 'ack'
+brew 'ffmpeg'
+brew 'lynx'
+brew 'macvim', args: [ 'custom-icons', 'override-system-vim' ]
+brew 'nmap'
+brew 'openssl'
+brew 'reattach-to-user-namespace'
+brew 'rename'
+brew 'ssh-copy-id'
+brew 'stow'
+brew 'the_silver_searcher'
+brew 'tmux'
+brew 'tree'
+brew 'youtube-dl'
+brew 'wget'
