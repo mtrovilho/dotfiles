@@ -29,6 +29,7 @@ Install
     # stow
     cd ~/.dotfiles
     stow -v --ignore=".DS_Store" ack bin ctags git ruby tmux
+    stow -v --ignore=".DS_Store" --target="$HOME/.rbenv" rbenv
     stow -v --ignore=".DS_Store" --target="$HOME/.ssh" ssh
 
     # osx defaults
