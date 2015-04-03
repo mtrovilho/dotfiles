@@ -19,7 +19,7 @@ Install
     chsh -s /bin/zsh
 
     # install homebrew
-    ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     # tap brewdler
     brew tap Homebrew/brewdler
     # install brews
