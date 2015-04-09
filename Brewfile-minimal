@@ -4,8 +4,6 @@ brew 'brew-rmtree'
 brew 'ack'
 brew 'ffmpeg'
 brew 'lynx'
-brew 'vim', args: [ 'override-system-vim' ]
-# brew 'macvim', args: [ 'custom-icons', 'override-system-vim' ]
 brew 'nmap'
 brew 'openssl'
 brew 'reattach-to-user-namespace'
@@ -15,5 +13,7 @@ brew 'stow'
 brew 'the_silver_searcher'
 brew 'tmux'
 brew 'tree'
-brew 'youtube-dl'
+brew 'vim', args: [ 'override-system-vim' ]
+# brew 'macvim', args: [ 'custom-icons', 'override-system-vim' ]
 brew 'wget'
+brew 'youtube-dl'
