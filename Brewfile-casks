@@ -1,0 +1,13 @@
+tap 'caskroom/cask'
+brew 'brew-cask'
+
+cask 'atom'
+cask 'catch'
+cask 'dropbox'
+cask 'evernote'
+cask 'istat-menus'
+cask 'limechat'
+cask 'mailplane'
+cask 'spotify'
+cask 'things'
+cask 'transmission'
