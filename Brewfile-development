@@ -1,21 +1,20 @@
-brew 'carthage'
 brew 'cloc'
 brew 'ctags'
-brew 'fortune'
+
 brew 'git'
-brew 'go'
-brew 'heroku-toolbelt'
-brew 'httpie'
-brew 'iperf'
 brew 'mercurial'
+
 brew 'mitmproxy'
-brew 'mogenerator'
-brew 'node'
-brew 'postgresql'
-brew 'pyenv'
-brew 'rbenv-default-gems'
-brew 'rbenv-gem-rehash'
-brew 'rbenv-vars'
+
+# brew 'carthage'
+# brew 'mogenerator'
+brew 'heroku-toolbelt'
+
+brew 'go'
+# brew 'node'
+# brew 'pyenv'
 brew 'rbenv'
 brew 'ruby-build'
+# brew 'postgresql'
+
 # brew 'shaper-probe' # head-only -> https://github.com/Homebrew/homebrew-head-only

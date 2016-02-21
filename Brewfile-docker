@@ -4,4 +4,6 @@ brew 'brew-cask'
 cask 'virtualbox'
 
 brew 'docker'
-brew 'boot2docker'
+brew 'docker-compose'
+brew 'docker-machine'
+brew 'docker-swarm'

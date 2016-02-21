@@ -2,18 +2,26 @@ tap 'beeftornado/rmtree'
 brew 'brew-rmtree'
 
 brew 'ack'
-brew 'ffmpeg'
-brew 'lynx'
-brew 'nmap'
-brew 'openssl'
-brew 'reattach-to-user-namespace'
+# brew 'the_silver_searcher'
 brew 'rename'
 brew 'ssh-copy-id'
 brew 'stow'
-brew 'the_silver_searcher'
-brew 'tmux'
 brew 'tree'
+brew 'fortune'
+
+brew 'openssl'
+brew 'lynx'
+brew 'wget'
+brew 'httpie'
+brew 'nmap'
+brew 'siege'
+brew 'iperf'
+
+brew 'ffmpeg'
+brew 'youtube-dl'
+
 brew 'vim', args: [ 'override-system-vim' ]
 # brew 'macvim', args: [ 'custom-icons', 'override-system-vim' ]
-brew 'wget'
-brew 'youtube-dl'
+
+# brew 'tmux'
+# brew 'reattach-to-user-namespace'
