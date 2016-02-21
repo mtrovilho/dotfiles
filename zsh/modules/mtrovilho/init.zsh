@@ -4,15 +4,6 @@
 # created by mtrovilho               #
 ######################################
 
-export RBENV_ROOT=/usr/local/var/rbenv
-export PYENV_ROOT=/usr/local/opt/pyenv
-
-export ANDROID_HOME=/usr/local/opt/android-sdk
-
-export GOPATH=$HOME/Projects/go
-export GOPATH_MT=$GOPATH/src/github.com/mtrovilho
-export PATH=$PATH:$GOPATH/bin
-
 # Aliases ####################################################################
 alias h='history'
 alias hn='hostname'
@@ -48,25 +39,25 @@ alias pbsort='pbpaste|sort|pbcopy'
 alias kext_list_non_apple='kextstat | grep -v com.apple'
 
 # Enable Remote Disc
-alias remote_disk_on="defaults write com.apple.NetworkBrowser EnableODiskBrowsing -bool true && defaults write com.apple.NetworkBrowser ODSSupported -bool true && echo 'please restart your Mac to enable remote disc.'"
-alias remote_disk_off="defaults write com.apple.NetworkBrowser EnableODiskBrowsing -bool false && defaults write com.apple.NetworkBrowser ODSSupported -bool false && echo 'please restart your Mac to disable remote disc.'"
+alias osx_remote_disk_on="defaults write com.apple.NetworkBrowser EnableODiskBrowsing -bool true && defaults write com.apple.NetworkBrowser ODSSupported -bool true && echo 'please restart your Mac to enable remote disc.'"
+alias osx_remote_disk_off="defaults write com.apple.NetworkBrowser EnableODiskBrowsing -bool false && defaults write com.apple.NetworkBrowser ODSSupported -bool false && echo 'please restart your Mac to disable remote disc.'"
 
 # Show/hide hidden files in Finder
-alias show="defaults write com.apple.Finder AppleShowAllFiles -bool true && killall Finder"
-alias hide="defaults write com.apple.Finder AppleShowAllFiles -bool false && killall Finder"
+alias osx_finder_show_hidden="defaults write com.apple.Finder AppleShowAllFiles -bool true && killall Finder"
+alias osx_finder_hide_hidden="defaults write com.apple.Finder AppleShowAllFiles -bool false && killall Finder"
 
 # Hide/show all desktop icons (useful when presenting)
-alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
-alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+alias osx_desktop_hide="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias osx_desktop_show="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
 
 # Quick way to rebuild the Launch Services database and get rid
 # of duplicates in the Open With submenu.
-alias fixopenwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder'
+alias osx_fix_open_with='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder'
 
 # Stuff I never really use but cannot delete either because of http://xkcd.com/530/
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 10'"
-alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
+# alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 
 # inUtils
 alias textgame='emacs -batch -l dunnet'

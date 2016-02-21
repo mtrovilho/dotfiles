@@ -1,2 +1,0 @@
-# mtrovilho Projects folder
-pm() { cd ~/Projects/mtrovilho/$1; }

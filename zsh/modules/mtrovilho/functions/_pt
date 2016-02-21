@@ -1,4 +1,0 @@
-#compdef pt
-#autoload
-
-_pt() { _files -W ~/Projects/totendev -/; }

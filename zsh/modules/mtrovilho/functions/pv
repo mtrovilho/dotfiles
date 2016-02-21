@@ -1,2 +1,0 @@
-# vendor Projects folder
-pv() { cd ~/Projects/vendor/$1; }

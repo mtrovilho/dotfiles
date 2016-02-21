@@ -1,4 +1,0 @@
-#compdef pm
-#autoload
-
-_pm() { _files -W ~/Projects/mtrovilho -/; }

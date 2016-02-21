@@ -1,2 +1,0 @@
-# Projects folder
-pj() { cd ~/Projects/$1; }

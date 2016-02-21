@@ -1,2 +1,0 @@
-# TotenDev Projects folder
-pt() { cd ~/Projects/totendev/$1; }

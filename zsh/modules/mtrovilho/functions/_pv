@@ -1,4 +1,0 @@
-#compdef pv
-#autoload
-
-_pv() { _files -W ~/Projects/vendor -/; }
